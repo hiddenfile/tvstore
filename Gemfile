@@ -43,3 +43,25 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'devise'
+gem 'haml-rails'
+gem 'pg'
+gem 'therubyracer', :platform=>:ruby
+
+group :development do
+  gem 'better_errors'
+  gem 'html2haml'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'thin'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'unicorn'
+end
+
