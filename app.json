@@ -11,7 +11,7 @@
     "Links",
     "Store"
   ],
-  "scripts": {"postdeploy": "bundle exec rake db:migrate; bundle exec rake db:seed"},
+  "scripts": {"postdeploy": "bundle exec rake db:migrate"},
   "env": {
     "DOMAIN_NAME": {
       "description": "Required for sending mail. Give an app name or use a custom domain.",
