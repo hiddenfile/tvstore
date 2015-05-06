@@ -1,5 +1,5 @@
 class Link < ActiveRecord::Base
-  LIMIT = 10.freeze
+  LIMIT = 14.freeze
 
   validate :validate_url
 
